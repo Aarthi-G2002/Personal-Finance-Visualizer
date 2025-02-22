@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personal Finance Visualizer</title>
+<link rel="stylesheet" href="styles.css">
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Personal Finance Tracker</h2>
+
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <div class="card">
+                <h4>Total Expenses</h4>
+                <p id="totalExpenses">₹0</p>
+            </div>
+            <div class="card">
+                <h4>Top Category</h4>
+                <p id="topCategory">N/A</p>
+            </div>
+            <div class="card">
+                <h4>Recent Transactions</h4>
+                <ul id="recentTransactions"></ul>
+            </div>
+        </div>
+
+        <!-- Budget -->
+        <h3>Set Monthly Budgets</h3>
+        <form id="budgetForm">
+            <select id="budgetCategory">
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Bills">Bills</option>
+                <option value="Other">Other</option>
+            </select>
+            <input type="number" id="budgetAmount" placeholder="Budget Amount" required>
+            <button type="submit">Set Budget</button>
+        </form>
+
+        <!-- Transaction Form -->
+        <h3>Add Transaction</h3>
+        <form id="transactionForm">
+            <input type="number" id="amount" placeholder="Amount" required>
+            <input type="date" id="date" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <select id="category">
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Bills">Bills</option>
+                <option value="Other">Other</option>
+            </select>
+            <button type="submit">Add Transaction</button>
+        </form>
+
+        <!-- Transaction List -->
+        <h3>Transaction List</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="transactionList"></tbody>
+        </table>
+
+        <!-- Charts Container -->
+        <div class="charts-container">
+            <!-- Monthly Expenses Chart -->
+            <div class="chart-wrapper">
+                <h3>Monthly Expenses</h3>
+                <canvas id="expensesChart"></canvas>
+            </div>
+
+            <!-- Pie Chart -->
+            <div class="chart-wrapper">
+                <h3>Spending Breakdown</h3>
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Budget vs Actual Chart -->
+        <div class="full-width-chart">
+            <div class="chart-wrapper">
+                <h3>Budget vs Actual Spending</h3>
+                <canvas id="budgetChart"></canvas>
+            </div>
+        </div>
+
+       
+        <p id="spendingInsights"></p>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
