@@ -5,33 +5,31 @@
 
 ## Features 
 
-###    Expense Tracking:
-Add transactions with details like amount, date, description, and category.
+###  Expense Tracking:
 
-Edit or delete existing transactions.
+#### Add transactions with details like amount, date, description, and category.
+  Edit or delete existing transactions.
 
-Budget Management:
+### Budget Management:
 
-Set monthly budgets for different categories (e.g., Food, Transport, Entertainment).
-
+#### Set monthly budgets for different categories (e.g., Food, Transport, Entertainment).
 Track actual spending against the set budgets.
 
-Interactive Charts:
+### Interactive Charts:
 
-Monthly Expenses Chart: Visualize monthly spending trends.
-
+#### Monthly Expenses Chart: Visualize monthly spending trends.
 Spending Breakdown (Pie Chart): View the distribution of expenses across categories.
 
-Budget vs Actual Spending Chart: Compare budgeted amounts with actual spending.
+### Budget vs Actual Spending Chart: Compare budgeted amounts with actual spending.
 
-Dashboard:
+### Dashboard:
 
-View total expenses, top spending category, and recent transactions at a glance.
+#### View total expenses, top spending category, and recent transactions at a glance.
 
-Spending Insights:
+### Spending Insights:
 
-Get warnings if spending exceeds the budget in any category.
+#### Get warnings if spending exceeds the budget in any category.
 
-Responsive Design:
+### Responsive Design:
 
-The application is designed to work seamlessly on both desktop and mobile devices.
+#### The application is designed to work seamlessly on both desktop and mobile devices.
