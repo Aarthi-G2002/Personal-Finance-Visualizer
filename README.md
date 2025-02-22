@@ -20,7 +20,9 @@ Track actual spending against the set budgets.
 #### Monthly Expenses Chart: Visualize monthly spending trends.
 Spending Breakdown (Pie Chart): View the distribution of expenses across categories.
 
-### Budget vs Actual Spending Chart: Compare budgeted amounts with actual spending.
+### Budget vs Actual Spending Chart: 
+
+#### Compare budgeted amounts with actual spending.
 
 ### Dashboard:
 
@@ -33,3 +35,32 @@ Spending Breakdown (Pie Chart): View the distribution of expenses across categor
 ### Responsive Design:
 
 #### The application is designed to work seamlessly on both desktop and mobile devices.
+
+## How to Use :
+
+### Set Budgets:
+
+#### Go to the "Set Monthly Budgets" section.
+#### Select a category and enter the budget amount.
+#### Click "Set Budget" to save.
+
+### Add Transactions:
+
+#### Go to the "Add Transaction" section.
+#### Enter the amount, date, description, and category.
+#### Click "Add Transaction" to save.
+
+### View Transactions:
+
+#### All transactions are displayed in the "Transaction List" table.
+#### You can edit or delete transactions using the respective buttons.
+
+### View Charts:
+
+#### The "Monthly Expenses" chart shows your spending trends over time.
+#### The "Spending Breakdown" pie chart shows how your expenses are distributed across categories.
+#### The "Budget vs Actual Spending" chart compares your budgeted amounts with actual spending.
+
+### Spending Insights:
+
+#### If you exceed your budget in any category, a warning message will appear at the bottom of the page.
