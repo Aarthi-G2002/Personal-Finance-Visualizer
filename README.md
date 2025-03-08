@@ -66,3 +66,14 @@ Spending Breakdown (Pie Chart): View the distribution of expenses across categor
 #### If you exceed your budget in any category, a warning message will appear at the bottom of the page.
 
 
+## Screenshots:
+### I have attached the screenshots below for reference.
+
+
+![Alt Text](img1.png)
+
+![Alt Text](img2.png)
+
+![Alt Text](img3.png)
+
+
